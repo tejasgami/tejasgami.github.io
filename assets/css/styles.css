@@ -81,6 +81,14 @@ a.btn-cta-secondary, .btn-cta-secondary {
   text-transform: uppercase;
 }
 
+.github-btn {
+  background: #778492;
+  border: 1px solid #778492;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 a.btn-cta-secondary:hover, .btn-cta-secondary:hover {
   background: #3893bd;
   border: 1px solid #3893bd;
