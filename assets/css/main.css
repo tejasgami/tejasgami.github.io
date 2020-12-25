@@ -747,6 +747,11 @@ a img {
     margin-right: 5px
 }
 
+.user-contactus {
+    
+    
+}
+
 @media only screen and (min-width:550px) {
     .contents {
         margin-left: 0;
@@ -764,6 +769,14 @@ a img {
 
     .contents-right {
         width: 100%
+    }
+
+    .contents-contact {
+        margin-left: 0;
+        width: 100%;
+        padding:30px;
+        background-color: #f1f1f1;
+        box-shadow: 0 4px 8px 0 rgba(149, 134, 233, 0.2);
     }
    
 }
@@ -847,6 +860,20 @@ a img {
     box-sizing: border-box;
   }
 
+  element.style {
+}
+#about * {
+    box-sizing: border-box;
+}
+/* .column {
+    float: left;
+    width: 10%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-left: 6px;
+    border: 1px solid;
+    background: transparent;
+} */
   .column {
     float: left;
     width: 20%;
@@ -878,6 +905,7 @@ a img {
   }
   .skill-tech-link {
     text-decoration: none !important;
+   
     /* color: #1488CC;  */
   }
   .skill-tech-link:hover {
@@ -907,3 +935,47 @@ a img {
     border-radius: 2rem;
     padding: .2rem .85rem .25rem;
   }
+
+  .story-point {
+    display: inline-flex;
+    text-align: left;
+  }
+
+  h1 {
+    color: #0074D9;
+    }
+    
+    ul,
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    ul {
+      margin: 2em 0;
+    }
+    
+    li {
+      margin: 1em;
+      margin-left: 3em;
+    }
+    
+    li:before {
+      content: '\f00c';
+      font-family: 'FontAwesome';
+      float: left;
+      margin-left: -1.5em;
+      color: #0074D9;
+    }
+
+    input {
+        width: 100%;
+      }
+
+      email {
+        width: 100%;
+      }
+      textarea {
+        width: 100%;
+      }
